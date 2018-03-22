@@ -8,12 +8,16 @@
     <div class=jumbotron>
       <h1>Movie Database</h1>
     </div>
+    <h2>Search your favorite actors!</h2>
     <form>
       <div>
-        <input type="search" id="mySearch" name="q"
-        placeholder="Enter actor/actress name" size="50" required>
-        <button>Search</button>
+        <label for="person">Enter Name:</label>
+        <input type="my-search" id="person" name=""
+        placeholder="Name" size="50" required>
+        <button class="button" id="search">Search</button>
       </div>
     </form>
+    <div class = "showFilms"></div>
+    <div class = "showErrors"></div>
   </body>
 </html>
