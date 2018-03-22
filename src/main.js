@@ -1,8 +1,5 @@
 import {Actor} from './moviedb.js';
 import './styles.css';
-// import $ from 'jquery';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 
 $(document).ready(function() {
@@ -13,7 +10,6 @@ $(document).ready(function() {
     let personAPI = new Actor(person);
     let promise = personAPI.searchActor();
     $('.showFilms').empty();
-
     // function output
 
   });
