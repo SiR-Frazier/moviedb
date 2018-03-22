@@ -1,6 +1,6 @@
 import {Actor} from './moviedb.js';
 import './styles.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 $(document).ready(function() {
 
